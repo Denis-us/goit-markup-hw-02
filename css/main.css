@@ -30,8 +30,16 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
-.adress {
 
+.adress .mail {
+    var(--secondary-text-color);
+}
+.adress .mail:hover {
+    color: var(--accent-color);
+}
+
+.adress .tellephone {
+    color: var(--secondary-text-color);
 }
 
 /* Hero */
@@ -68,4 +76,14 @@ body {
     color: var(--main-bg-color);
     background-color: var(--accent-color);
 
+}
+
+/* Projects */
+
+.project-form {
+    color: var(--secondary-text-color);
+}
+
+.project-title {
+    color: var(--main-text-color);
 }
