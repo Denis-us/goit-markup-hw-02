@@ -11,6 +11,7 @@
     --accent-color:rgba(33, 150, 243, 1);
     --main-bg-color: #FFFFFF;
     --secondary-bg-color: #F5F4FA;
+    --third-bg-color:#2F303A;
 }
 
 body {
@@ -31,25 +32,36 @@ body {
     color: var(--accent-color);
 }
 
-.adress .mail {
-    var(--secondary-text-color);
-}
-.adress .mail:hover {
-    color: var(--accent-color);
+/* Adress */
+.adress p {
+    color: var(--main-bg-color)
 }
 
-.adress .tellephone {
+.contact {
     color: var(--secondary-text-color);
 }
 
+.mail {
+    color: var(--accent-color);
+}
+
 /* Hero */
+.hero {
+    background-color: var(--third-bg-color);
+}
 .hero .hero-title{
     color: var(--main-bg-color);
 }
 
 /* Section */
-.section {
+.section-qualities {
     color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+}
+
+.section-team {
+    color: var(--main-text-color);
+    background-color: var(--secondary-bg-color);
 }
 
 .section-title {
@@ -71,14 +83,34 @@ body {
 }
 
 /* Button */
-
-.button {
+.primary-button {
     color: var(--main-bg-color);
     background-color: var(--accent-color);
 
 }
 
+.secondary-button {
+    color: var(--main-text-color);
+    background-color: var(--secondary-bg-color);
+}
+
+.secondary-button:hover {
+    color: var(--main-bg-color);
+    background-color: var(--accent-color);
+}
+
+.footer {
+    background-color: var(--third-bg-color)
+}
+
 /* Projects */
+main {
+    color: var(--main-text-color)
+}
+
+.projects {
+    color: var(--main-bg-color)
+}
 
 .project-form {
     color: var(--secondary-text-color);
