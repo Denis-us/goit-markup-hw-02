@@ -94,7 +94,11 @@ body {
     background-color: var(--secondary-bg-color);
 }
 
-.button:hover
+.button:hover {
+    color: var(--main-bg-color);
+    background-color: var(--accent-color); 
+}
+
 .button:focus {
     color: var(--main-bg-color);
     background-color: var(--accent-color);
