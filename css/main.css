@@ -89,12 +89,12 @@ body {
 
 }
 
-.secondary-button {
+.button {
     color: var(--main-text-color);
     background-color: var(--secondary-bg-color);
 }
 
-.secondary-button:hover {
+.button:hover {
     color: var(--main-bg-color);
     background-color: var(--accent-color);
 }
