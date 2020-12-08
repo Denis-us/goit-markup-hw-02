@@ -70,20 +70,20 @@ body {
 }
 
 /* Adress */
-.adress-header {
+.header-address {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
 
-.adress-footer > a {
+.footer-address > a {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
 }
 
-.adress-footer > p {
+.footer-address > p {
     color: var(--main-bg-color);
     font-size: 14px;
     line-height: 24px;
